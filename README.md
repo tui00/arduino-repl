@@ -14,9 +14,9 @@
 - С помощью ссылки:
   - Откройте [ссылку](https://github.com/tui00/arduino-repl/archive/refs/heads/main.zip)
 - С помощью Github CLI:  
-  - Запустите `gh repo clone tui00/LLAC`
+  - Запустите `gh repo clone tui00/arduino-repl`
 - С помощью git:  
-  - Запустите `git clone https://github.com/tui00/LLAC.git`
+  - Запустите `git clone https://github.com/tui00/arduino-repl.git`
 - С помощью рук:
   - Откройте раздел `Code`
   - Нажмите `Download ZIP`
@@ -24,7 +24,7 @@
 ## Запуск проекта
 > **⚠️ Для запуска установите `.NET 9.0 Runtime`**
 - Запустите команду `dotnet build`
-- Откройте папку `LLAC/bin/Debug/net9.0`
+- Откройте папку `bin/Debug/net9.0`
 - Запустите исполняемый файл
 
 ## Краткая документация
