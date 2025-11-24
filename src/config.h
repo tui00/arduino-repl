@@ -3,6 +3,7 @@
 // Конфигурация REPL
 #define VERSION 1 // Версия REPL
 #define INFO "Arduino REPL v1.0" // Информация о прошивке
+#define BOUDRATE 115200 // Скорость обмена данными
 #define COMMANDS_COUNT 8 // Количество команд, доступных для REPL
 #define SUCCESS_CODE 0xFF // Код успеха
 #define ERROR_CODE 0xFE // Код ошибки
