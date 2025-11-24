@@ -123,12 +123,13 @@ void sendUInt32(unsigned long value)
 
 void sendInfo()
 {
-    sendUInt32(millis());         // 0
-    sendUInt16(getFreeRam());     // 32
-    sendUInt16(TOTAL_RAM);        // 48
-    sendUInt32(FLASH_SIZE);       // 64
-    sendUInt32(CPU_FREQ);         // 96
-    sendUInt32(VERSION);          // 128
+    sendUInt16(0xB416);           // 0
+    sendUInt16(VERSION);          // 16
+    sendUInt32(millis());         // 32
+    sendUInt16(getFreeRam());     // 48
+    sendUInt16(TOTAL_RAM);        // 64
+    sendUInt32(FLASH_SIZE);       // 96
+    sendUInt32(CPU_FREQ);         // 128
     Serial.write(BUFFER_SIZE);    // 160
     Serial.write(DIGITAL_PINS);   // 161
     Serial.write(TOTAL_PINS);     // 162
