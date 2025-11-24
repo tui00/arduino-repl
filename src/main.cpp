@@ -8,7 +8,7 @@ int bufferIndex = 0;
 unsigned long startTime;
 
 void setup() {
-    Serial.begin(BOUDRATE);
+    Serial.begin(BAUDRATE);
     startTime = millis();
     softPWMCount = 0;
 }
